@@ -1,9 +1,75 @@
+<template>
+  <div class="container">
+    <div class="container-head">
+      <div>小林软仓</div>
+    </div>
+
+    <div class="container-main">
+      <div class="container-main-left">
+        <p v-for="(item, index) in dataList" :key="index">
+          {{ item.tab }}
+        </p>
+      </div>
+      <div class="container-main-right">
+        <div class="list-container">
+          <div class="list-item" v-for="(item, index) in dataList" :key="index"
+            @click="handleClick($event, item, i, j, k)">
+            <h3>{{ item.tab }}</h3>
+            <div v-for="(list, j) in item.list" :key="list" :title="list.title" :name="list.title"
+              :disabled="list.nav.length === 0">
+              <el-image class="img" :src="list.icon">
+                <template #error>
+                  <div class="image-slot">
+                    <el-icon>{{ list.title.toUpperCase()[0] }}</el-icon>
+                  </div>
+                </template>
+              </el-image>
+              {{ list.title }}
+              <div class="list-container">
+                <div class="list-item" v-for="(item, k) in list.nav" :key="item"
+                  @click="handleClick($event, item, i, j, k)" :class="{ active: [i, j, k].join('-') === currentIndex }">
+                  <div class="name">{{ item.name }}</div>
+                  <div class="download">download</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <el-tabs tab-position="left">
+        <el-tab-pane v-for="(data, i) in dataList" :key="data" :label="data.tab">
+          <el-collapse accordion>
+            <el-collapse-item v-for="(list, j) in data.list" :key="list" :title="list.title" :name="list.title"
+              :disabled="list.nav.length === 0">
+              <template #title>
+                <el-image class="img" :src="list.icon">
+                  <template #error>
+
+                    <div class="image-slot">
+                      <el-icon>{{ list.title.toUpperCase()[0] }}</el-icon>
+                    </div>
+                  </template>
+</el-image>
+{{ list.title }}
+</template>
+<div class="list-container">
+  <div class="list-item" v-for="(item, k) in list.nav" :key="item" @click="handleClick($event, item, i, j, k)"
+    :class="{ active: [i, j, k].join('-') === currentIndex }">
+    <div class="name">{{ item.name }}</div>
+    <div class="download">download</div>
+  </div>
+</div>
+</el-collapse-item>
+</el-collapse>
+</el-tab-pane>
+</el-tabs> -->
+    </div>
+  </div>
+</template>
+
 <script setup>
-import {ref} from 'vue'
+import { ref } from 'vue'
 import sourceData from '@/assets/data.json'
-
-console.log(sourceData)
-
 const dataList = ref(sourceData)
 
 const currentIndex = ref('')
@@ -13,55 +79,53 @@ const handleClick = (event, item, i, j, k) => {
   window.open(item.url, '_blank')
 }
 </script>
-
-<template>
-  <div class="container">
-    <div class="password">
-      <el-text size="large" type="primary">压缩包解压密码：ruancang.net</el-text>
-    </div>
-    <el-tabs tab-position="left">
-      <el-tab-pane v-for="(data,i) in dataList" :key="data" :label="data.tab">
-        <el-collapse accordion>
-          <el-collapse-item v-for="(list,j) in data.list" :key="list" :title="list.title" :name="list.title"
-                            :disabled="list.nav.length===0">
-            <template #title>
-              <!--https://www.cnblogs.com/Fooo/p/17918184.html-->
-              <el-image class="img" :src="list.icon">
-                <template #error>
-
-                  <div class="image-slot">
-                    <el-icon>{{ list.title.toUpperCase()[0] }}</el-icon>
-                  </div>
-                </template>
-              </el-image>
-              {{ list.title }}
-            </template>
-            <div class="list-container">
-              <div class="list-item" v-for="(item,k) in list.nav" :key="item" @click="handleClick($event,item,i,j,k)"
-                   :class="{active:[i, j, k].join('-') === currentIndex}">
-                <div class="name">{{ item.name }}</div>
-                <div class="download">download</div>
-              </div>
-            </div>
-          </el-collapse-item>
-        </el-collapse>
-      </el-tab-pane>
-    </el-tabs>
-  </div>
-</template>
-
-<style scoped>
-/*容器*/
+<style lang="scss" scoped>
 .container {
-  width: 1000px;
-  margin: 0 auto;
+  // width: 1000px;
+  width: 100vw;
+  height: 100%;
+  padding-top: 94px;
+
+  .container-main {
+    margin: 0 auto;
+    color: #d6d6d6;
+    display: flex;
+    .container-main-left {
+      width: 120px;
+      background: #202328;
+      padding: 25px;
+      box-shadow: 0 0 2px rgb(98 124 153 / 10%);
+      border-radius: 5px;
+
+      p {
+        line-height: 40px;
+      }
+    }
+  }
 }
 
-.password {
-  height: 40px;
-  line-height: 40px;
-  padding-bottom: 40px;
+.container-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 40px 0 rgba(17, 58, 93, .1);
+  backdrop-filter: saturate(180%) blur(6px);
+  background: #202328;
+  color: #fff;
+  font-size: 22px;
 }
+
+
+.container-main {
+  width: 980px;
+}
+
 
 /*列表*/
 .img {
