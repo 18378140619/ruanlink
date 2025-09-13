@@ -2,7 +2,8 @@
   <div class="container">
     <div class="container-head">
       <div>小林软仓</div>
-      <p>所有文件解压密码均为:alin123本站为公益站点，请Ctrl + D 保存网站www.alin123.top到收藏夹</p>
+      <p>所有文件解压密码均为：<span>alin123</span></p>
+      <p>本站为公益站点请Ctrl + D 保存网站www.alin123.top到收藏夹</p>
     </div>
 
     <div class="container-main">
@@ -37,7 +38,7 @@
       <div class="tips">所有文件解压密码均为:alin123</div>
       <div class="dialog-content" v-for="item in dialogInfo.nav" :key="item.title">
         <p class="dialog-content-title">{{ item.name }}</p>
-        <p>下载: <a :href="item.url"> {{ item.url }}</a></p>
+        <p>下载: <a :href="item.url" target="_blank"> {{ item.url }}</a></p>
       </div>
       <template #footer>
         <div class="dialog-footer">
@@ -86,7 +87,7 @@ const handleClick = (item, index) => {
 <style lang="scss" scoped>
 .container {
   height: 100%;
-  padding-top: 104px;
+  padding-top: 134px;
 
   .container-main {
     margin: 0 auto;
@@ -97,7 +98,7 @@ const handleClick = (item, index) => {
 
     .container-main-left {
       position: fixed;
-      top: 104px;
+      top: 134px;
       width: 120px;
       background: #202328;
       padding: 12px 25px;
@@ -133,7 +134,7 @@ const handleClick = (item, index) => {
   left: 0;
   width: 100%;
   z-index: 9;
-  height: 80px;
+  height: 110px;
   text-align: center;
   box-shadow: 0 5px 40px 0 rgba(17, 58, 93, .1);
   backdrop-filter: saturate(180%) blur(6px);
@@ -144,6 +145,9 @@ const handleClick = (item, index) => {
 
   p {
     font-size: 16px;
+    span{
+      color: red;
+    }
   }
 }
 
@@ -218,5 +222,9 @@ const handleClick = (item, index) => {
 ::v-deep(.el-dialog__title) {
   font-size: 30px;
   font-weight: 600;
+}
+::v-deep(.el-dialog__body) {
+  max-height: 60vh;
+  overflow-x: auto;
 }
 </style>
