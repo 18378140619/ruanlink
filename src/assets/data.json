@@ -1,13 +1,11 @@
-[
-  {
+[{
     "tab": "常用软件",
     "icon": "",
-    "list": [
-      {
+    "id": 1,
+    "list": [{
         "title": "office",
-        "icon": "",
-        "nav": [
-          {
+        "icon": "img/icons/office.svg",
+        "nav": [{
             "name": "👍office激活工具",
             "url": "https://www.lanzouw.com/iO08Luzvsrg",
             "post": ""
@@ -51,9 +49,8 @@
       },
       {
         "title": "wps",
-        "icon": "",
-        "nav": [
-          {
+        "icon": "img/icons/wps.svg",
+        "nav": [{
             "name": "WPS2019 专业版（教育部教育考试专用）",
             "url": "https://www.123pan.com/s/ZrzA-2UZgh",
             "post": ""
@@ -95,8 +92,8 @@
   {
     "tab": "Adobe",
     "icon": "",
-    "list": [
-      {
+    "id": 2,
+    "list": [{
         "title": "Adobe软件直接安装即可学习",
         "icon": "",
         "nav": []
@@ -104,8 +101,7 @@
       {
         "title": "Acrobat",
         "icon": "img/icons/Acrobat DC.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Acrobat DC 2022",
             "url": "https://pan.baidu.com/s/1qFvQuPYILromKpziPIo9Uw?pwd=6666"
           },
@@ -126,8 +122,7 @@
       {
         "title": "After Effects",
         "icon": "img/icons/after-effects.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "After Effects 2023",
             "url": "https://pan.baidu.com/s/1nTw5Lbi_PA9sQFB6CBiqmQ?pwd=6666"
           },
@@ -160,8 +155,7 @@
       {
         "title": "Animate",
         "icon": "img/icons/animate.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Animate 2023",
             "url": "https://pan.baidu.com/s/1gxRLOo60_WqJ9iA_uMGomw?pwd=6666"
           },
@@ -194,8 +188,7 @@
       {
         "title": "Audition",
         "icon": "img/icons/audition.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Audition 2023",
             "url": "https://pan.baidu.com/s/1KFlsJdHSihdp0nljVZW36A?pwd=6666"
           },
@@ -228,8 +221,7 @@
       {
         "title": "Bridge",
         "icon": "img/icons/bridge.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Bridge 2023",
             "url": "https://pan.baidu.com/s/1zjdTnAchkOKARPqhepkXkA?pwd=6666"
           },
@@ -262,8 +254,7 @@
       {
         "title": "Character Animator",
         "icon": "img/icons/character-animator.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Character Animator 2023",
             "url": "https://pan.baidu.com/s/1WQYldSdBxpVBqHxZfXaHjw?pwd=6666"
           },
@@ -292,8 +283,7 @@
       {
         "title": "Dimension",
         "icon": "img/icons/dimension.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Dimension 3.4.4",
             "url": "https://pan.baidu.com/s/1uqAKB2jibslZAdVoE1ZRzw?pwd=6666"
           },
@@ -306,8 +296,7 @@
       {
         "title": "Dreamweaver",
         "icon": "img/icons/dreamweaver.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Dreamweaver 2021",
             "url": "https://pan.baidu.com/s/1QCbDknXOY1jiRl9zv1i-pQ?pwd=6666"
           },
@@ -332,8 +321,7 @@
       {
         "title": "illustrator",
         "icon": "img/icons/illustrator.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Illustrator 2023",
             "url": "https://pan.baidu.com/s/1Y_euG5mu2fEWFeoDiLTi_A?pwd=6666"
           },
@@ -366,8 +354,7 @@
       {
         "title": "InCopy",
         "icon": "img/icons/incopy.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "InCopy 2023",
             "url": "https://pan.baidu.com/s/1NReKVo6U2kA73UeijAhKaQ?pwd=6666"
           },
@@ -400,8 +387,7 @@
       {
         "title": "InDesign",
         "icon": "img/icons/indesign.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "InDesign 2023",
             "url": "https://pan.baidu.com/s/1YGuwMtV5PpTB9PELnAidPQ?pwd=6666"
           },
@@ -434,8 +420,7 @@
       {
         "title": "Lightroom",
         "icon": "img/icons/lightroom-classic.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Lightroom Classic 12.3",
             "url": "https://pan.baidu.com/s/13AhDdebefLQf-TyVsRMeCQ?pwd=6666"
           },
@@ -460,8 +445,7 @@
       {
         "title": "Midea Encoder",
         "icon": "img/icons/media-encoder.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Media Encoder 2023",
             "url": "https://pan.baidu.com/s/1PZUQSBmfn8J3dwld2nir2A?pwd=6666"
           },
@@ -494,8 +478,7 @@
       {
         "title": "Photoshop",
         "icon": "img/icons/photoshop.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Photoshop 2023",
             "url": "https://pan.baidu.com/s/1TfSESQzbPIAPJaFR4xxwZw?pwd=6666"
           },
@@ -528,8 +511,7 @@
       {
         "title": "Photoshop Elements",
         "icon": "img/icons/Photoshop-Elements.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "PS Elements2024",
             "url": "https://pan.baidu.com/s/1CLvO7To2a-5pPncxywc_6w?pwd=6666",
             "post": "https://blog.ruancang.net/post/ps-elements2024.html"
@@ -556,8 +538,7 @@
       {
         "title": "Prelude",
         "icon": "img/icons/Prelude.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Prelude 2022",
             "url": "https://pan.baidu.com/s/17SaIF09ynTeA5sMt6w304w?pwd=6666"
           },
@@ -586,8 +567,7 @@
       {
         "title": "Premiere",
         "icon": "img/icons/premiere.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Premiere Pro 2023",
             "url": "https://pan.baidu.com/s/1TZD99AGC_9Rr4qGG_2Tf3Q?pwd=6666"
           },
@@ -620,8 +600,7 @@
       {
         "title": "Premiere Elements",
         "icon": "img/icons/PremiereElements.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Pr Elements2024",
             "url": "https://pan.baidu.com/s/1j1G-1CrrvYXaPjr8LdP4gQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/pr-elements2024.html"
@@ -650,12 +629,11 @@
   {
     "tab": "AutoCAD",
     "icon": "",
-    "list": [
-      {
+    "id": 3,
+    "list": [{
         "title": "CAD",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD2025",
             "url": "https://pan.baidu.com/s/1ZZfZsAM1MecDnlQVElZJOg?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad2025.html"
@@ -765,8 +743,7 @@
       {
         "title": "CAD Plant 3D",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD Plant 3D2024",
             "url": "https://pan.baidu.com/s/1B3TFI0XFMVfUCkeDuGiJvg?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad-plant-3d2024.html"
@@ -781,8 +758,7 @@
       {
         "title": "CAD MEP ",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD MEP 2024",
             "url": "https://pan.baidu.com/s/1z6FySh11wWiWhSvC-JxrtQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad-mep2024.html"
@@ -797,19 +773,16 @@
       {
         "title": "CAD MAP 3D",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
-            "name": "CAD Map 3D 2023",
-            "url": "https://pan.baidu.com/s/1QsP7isLBfN6gc0ows5xYUg?pwd=8888",
-            "post": "https://blog.ruancang.net/post/cad-map-3d2023.html"
-          }
-        ]
+        "nav": [{
+          "name": "CAD Map 3D 2023",
+          "url": "https://pan.baidu.com/s/1QsP7isLBfN6gc0ows5xYUg?pwd=8888",
+          "post": "https://blog.ruancang.net/post/cad-map-3d2023.html"
+        }]
       },
       {
         "title": "CAD精简版",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD2025精简版",
             "url": "https://pan.baidu.com/s/1q5JBgFxKOL3sL2UnhCr-HA?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad2025（精简版）.html"
@@ -874,8 +847,7 @@
       {
         "title": "CAD建筑版",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD2025建筑版",
             "url": "https://pan.baidu.com/s/1Pq-IApqkMOufaltGy-RS-g?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad2025（建筑版）.html"
@@ -925,8 +897,7 @@
       {
         "title": "CAD机械版",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD2025机械版",
             "url": "https://pan.baidu.com/s/1z3U2R-KRnm_4XZNAN5kDNQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad2025（机械版）.html"
@@ -981,8 +952,7 @@
       {
         "title": "CAD电气版",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD2025电气版",
             "url": "https://pan.baidu.com/s/1IROwVTAsdAMeZreHGhMhdQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/cad2025（电气版）.html"
@@ -1037,8 +1007,7 @@
       {
         "title": "CAD迷你系列",
         "icon": "img/icons/AutoCAD.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAD迷你看图 2021R10",
             "url": "https://pan.baidu.com/s/1DSUxe1qN0_WiSaRP9WF7Jw?pwd=6666",
             "post": "https://blog.ruancang.net/post/558.html"
@@ -1053,8 +1022,7 @@
       {
         "title": "CAXA3D实体设计",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAXA3D实体设计2024",
             "url": "https://pan.baidu.com/s/1NZNjUMSoMfCUH2MsvlPxSA?pwd=8888",
             "post": "https://blog.ruancang.net/post/caxa3d实体设计2024.html"
@@ -1089,8 +1057,7 @@
       {
         "title": "CAXA电子图版",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAXA电子图板2024",
             "url": "https://pan.baidu.com/s/1QIPDvEfli9GZPt9ra0pkvg?pwd=8888",
             "post": "https://blog.ruancang.net/post/caxa电子图板2024.html"
@@ -1125,8 +1092,7 @@
       {
         "title": "CAXA工艺图表",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "CAXA工艺图表2024",
             "url": "https://pan.baidu.com/s/1IbsUwU7_dfV0bl_9J4zLkg?pwd=8888",
             "post": "https://blog.ruancang.net/post/caxa工艺图表2024.html"
@@ -1161,8 +1127,7 @@
       {
         "title": "天正T20",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "天正T20V10.0",
             "url": "https://pan.baidu.com/s/1SA4kFb86vADM_YuwUX-b4A?pwd=8888",
             "post": "https://blog.ruancang.net/post/天正t20v10.0.html"
@@ -1209,12 +1174,11 @@
   {
     "tab": "平面设计",
     "icon": "",
-    "list": [
-      {
+    "id": 4,
+    "list": [{
         "title": "ACDSee",
         "icon": "img/icons/ACDSee.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "ACDSee2024",
             "url": "https://pan.baidu.com/s/1NV0D8H5L77Yze-Zgabzcww?pwd=6666",
             "post": "https://blog.ruancang.net/post/acdsee2024.html"
@@ -1259,8 +1223,7 @@
       {
         "title": "Capture One",
         "icon": "img/icons/Capture One.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Capture One23",
             "url": "https://pan.baidu.com/s/1qCrFTldf1R_sT6PRFJrieg?pwd=8888",
             "post": "https://blog.ruancang.net/post/capture-one23.html"
@@ -1285,8 +1248,7 @@
       {
         "title": "Corel Painter",
         "icon": "img/icons/corel-painter.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Corel Painter 2023",
             "url": "https://pan.baidu.com/s/1eOlUuHbYRdkqbHdhLqoLZw?pwd=8888",
             "post": "https://blog.ruancang.net/post/corel-painter2023.html"
@@ -1316,8 +1278,7 @@
       {
         "title": "SAI",
         "icon": "img/icons/SAI.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "SAI2.0-2024",
             "url": "https://pan.baidu.com/s/1k0_lxnmyVSTZ6O6F7e79lA?pwd=6666",
             "post": "https://blog.ruancang.net/post/sai2.0-2024.html"
@@ -1352,8 +1313,7 @@
       {
         "title": "SketchBook",
         "icon": "img/icons/SketchBook.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "SketchBook2022",
             "url": "https://pan.baidu.com/s/1wEPxmfqfJyC7XPqB2CzVhA?pwd=8888",
             "post": "https://blog.ruancang.net/post/sketchbook2022.html"
@@ -1400,12 +1360,11 @@
   {
     "tab": "三维设计",
     "icon": "",
-    "list": [
-      {
+    "id": 5,
+    "list": [{
         "title": "3ds Max",
         "icon": "img/icons/3DSMax.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "3ds Max2025",
             "url": "https://pan.baidu.com/s/15iQU8sKSvzkqbydXVyWAnw?pwd=8888",
             "post": "https://blog.ruancang.net/post/3ds-max2025.html"
@@ -1495,8 +1454,7 @@
       {
         "title": "Artlantis",
         "icon": "img/icons/Artlantis.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Artlantis 2021",
             "url": "https://pan.baidu.com/s/1LPahUHvXYvIUga12YTPlQQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/747.html"
@@ -1516,8 +1474,7 @@
       {
         "title": "blender",
         "icon": "img/icons/blender.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Blender4.0",
             "url": "https://pan.baidu.com/s/1YsYDFua4S3xdkkh0b1T_Bg?pwd=8888",
             "post": "https://blog.ruancang.net/post/blender4.0.html"
@@ -1547,8 +1504,7 @@
       {
         "title": "CorelCAD",
         "icon": "img/icons/CorelCAD.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "CorelCAD 2023",
             "url": "https://pan.baidu.com/s/1dvenFJtBzQ-4I_GsL-SImQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/corelcad2023.html"
@@ -1583,8 +1539,7 @@
       {
         "title": "Lumion",
         "icon": "img/icons/lumion.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Lumion2023",
             "url": "https://pan.baidu.com/s/1hQPwKOKgurZHikP700o65Q?pwd=8888",
             "post": "https://blog.ruancang.net/post/lumion2023.html"
@@ -1639,8 +1594,7 @@
       {
         "title": "SketchUp Pro",
         "icon": "img/icons/SketchUpPro.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "SketchUpPro 2024",
             "url": "https://pan.baidu.com/s/1RB8He_bGgvhhR8LyqmVztQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/sketchup2024.html"
@@ -1695,8 +1649,7 @@
       {
         "title": "V-Ray for 3dsMax",
         "icon": "img/icons/V-Ray.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "V-Ray 6.2 for 3dsMax2019- 2024",
             "url": "https://pan.baidu.com/s/1L1YtT71qtaHxwnv9W6j-tQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/v-ray6.2-for-3ds-max.html"
@@ -1741,8 +1694,7 @@
       {
         "title": "V-Ray for Rhino",
         "icon": "img/icons/V-Ray.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "V-ray 6.0 for Rhino6-8",
             "url": "https://pan.baidu.com/s/1ojeNeMsAAwLC7K2TSdTv_g?pwd=8888",
             "post": "https://blog.ruancang.net/post/v-ray6.0-for-rhino.html"
@@ -1772,8 +1724,7 @@
       {
         "title": "V-Ray for SketchUp",
         "icon": "img/icons/V-Ray.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "V-Ray 6.1 for SketchUp2019-2023",
             "url": "https://pan.baidu.com/s/1E1DChH0__WgD32FCd15s2w?pwd=8888",
             "post": "https://blog.ruancang.net/post/v-ray6.1-for-sketchup.html"
@@ -1810,12 +1761,11 @@
   {
     "tab": "影视动画",
     "icon": "",
-    "list": [
-      {
+    "id": 6,
+    "list": [{
         "title": "Maya",
         "icon": "img/icons/MAYA.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Maya2025",
             "url": "https://pan.baidu.com/s/1PPvZ1hGjC1czoeJaR_BFPw?pwd=8888",
             "post": "https://blog.ruancang.net/post/maya2025.html"
@@ -1870,8 +1820,7 @@
       {
         "title": "CINEMA 4D",
         "icon": "img/icons/CINEMA 4D.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "C4D 2024",
             "url": "https://pan.baidu.com/s/1ahdWNpyoT17p0ojkuv6hVw?pwd=8888",
             "post": "https://blog.ruancang.net/post/c4d-2024.html"
@@ -1931,8 +1880,7 @@
       {
         "title": "Cubase",
         "icon": "img/icons/Cubase.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Cubase13.0",
             "url": "https://pan.baidu.com/s/1hwuRSJuRFXo0QPxb73EKWg?pwd=8888",
             "post": "https://blog.ruancang.net/post/cubase13.0.html"
@@ -1957,8 +1905,7 @@
       {
         "title": "达芬奇",
         "icon": "img/icons/DaVinciResolve.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "达芬奇18.5",
             "url": "https://pan.baidu.com/s/1Ba3_yl-PD_czPfyUp227Sw?pwd=8888",
             "post": "https://blog.ruancang.net/post/达芬奇18.5.html"
@@ -2003,8 +1950,7 @@
       {
         "title": "EDIUS Pro",
         "icon": "img/icons/edius-pro-250.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Edius 9.0",
             "url": "https://pan.baidu.com/s/1smgNTHd4Tvfh4mgtIxSMxQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/edius9.0.html"
@@ -2024,8 +1970,7 @@
       {
         "title": "Nuendo",
         "icon": "img/icons/nuendo.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Nuendo10",
             "url": "https://pan.baidu.com/s/1ZU2-YmY2pse-TKH6bsRnaA?pwd=8888",
             "post": "https://blog.ruancang.net/post/nuendo10.html"
@@ -2042,12 +1987,11 @@
   {
     "tab": "建筑设计",
     "icon": "",
-    "list": [
-      {
+    "id": 7,
+    "list": [{
         "title": "Civil 3D",
         "icon": "img/icons/Civil3D.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Civil3D 2024",
             "url": "https://pan.baidu.com/s/1lBsGNeLs-s6f_VmfgqzMfw?pwd=8888",
             "post": "https://blog.ruancang.net/post/civil3d-2024.html"
@@ -2092,8 +2036,7 @@
       {
         "title": "Fuzor",
         "icon": "img/icons/Fuzor.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Fuzor2020",
             "url": "https://pan.baidu.com/s/1IMzPuMtVkFiiVP_WtZpKJw?pwd=6666",
             "post": "https://blog.ruancang.net/post/992.html"
@@ -2118,8 +2061,7 @@
       {
         "title": "Navisworks",
         "icon": "img/icons/Navisworks.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Navisworks2024",
             "url": "https://pan.baidu.com/s/1kLIFgYZWEjlxQjCjtx_G9g?pwd=8888",
             "post": "https://blog.ruancang.net/post/navisworks2024.html"
@@ -2164,8 +2106,7 @@
       {
         "title": "Revit",
         "icon": "img/icons/Revit.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Revit2025",
             "url": "https://pan.baidu.com/s/1gNpK19ybupqQSnmrAXYueA?pwd=8888",
             "post": "https://blog.ruancang.net/post/revit2025.html"
@@ -2235,8 +2176,7 @@
       {
         "title": "Tekla Structures",
         "icon": "img/icons/tekla.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Tekla Structures 2024",
             "url": "https://pan.baidu.com/s/18IiQu-jxu1bH8TfAWhhg9w?pwd=8888",
             "post": "https://blog.ruancang.net/post/tekla-structures2024.html"
@@ -2286,8 +2226,7 @@
       {
         "title": "Vectorworks",
         "icon": "img/icons/Vectorworks.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Vectorworks2023",
             "url": "https://pan.baidu.com/s/1yLY5DWHbrxD1FpQPYkNmnA?pwd=8888",
             "post": "https://blog.ruancang.net/post/vectorworks2023.html"
@@ -2324,12 +2263,11 @@
   {
     "tab": "机械设计",
     "icon": "",
-    "list": [
-      {
+    "id": 8,
+    "list": [{
         "title": "CATIA Composer",
         "icon": "img/icons/Catia-P3-V5-6R2020.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "CATIA Composer R2024",
             "url": "https://pan.baidu.com/s/1j-1ATugyjPBkKfZ0KdmMeg?pwd=8888",
             "post": "https://blog.ruancang.net/post/catia-composer-r2024.html"
@@ -2359,8 +2297,7 @@
       {
         "title": "Catia",
         "icon": "img/icons/Catia-P3-V5-6R2020.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Catia P3 V5-6R2020",
             "url": "https://pan.baidu.com/s/1PrCdJyP4AF_KhAaGRKJv-Q?pwd=6666",
             "post": "https://blog.ruancang.net/post/242.html"
@@ -2395,8 +2332,7 @@
       {
         "title": "Creo Parametric",
         "icon": "img/icons/Creo Parametric.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Creo 10.0",
             "url": "https://pan.baidu.com/s/1eU9Mi97aUWTtpTFj_EQBjw?pwd=8888",
             "post": "https://blog.ruancang.net/post/creo10.0.html"
@@ -2436,8 +2372,7 @@
       {
         "title": "Inventor",
         "icon": "img/icons/Inventor.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Inventor2025",
             "url": "https://pan.baidu.com/s/1o6K9K0flG4ng4CXStgIzLA?pwd=8888",
             "post": "https://blog.ruancang.net/post/inventor2025.html"
@@ -2487,8 +2422,7 @@
       {
         "title": "Mastercam",
         "icon": "img/icons/Mastercam.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Mastercam2025",
             "url": "https://pan.baidu.com/s/1FCA7dJx-oPjuxGU1hhewng?pwd=8888",
             "post": "https://blog.ruancang.net/post/mastercam2025.html"
@@ -2543,8 +2477,7 @@
       {
         "title": "Powermill",
         "icon": "img/icons/Powermill.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "PowerMill2024",
             "url": "https://pan.baidu.com/s/1lYP3g13hp5kckyT3oTg4Ag?pwd=8888",
             "post": "https://blog.ruancang.net/post/powermill2024.html"
@@ -2589,8 +2522,7 @@
       {
         "title": "Pro Engineer",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Proe5.0M280",
             "url": "https://pan.baidu.com/s/1pSznxSy0B_R7bLgY2X1sgA?pwd=6666",
             "post": "https://blog.ruancang.net/post/218.html"
@@ -2615,8 +2547,7 @@
       {
         "title": "Rhinoceros",
         "icon": "img/icons/Rhinoceros.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "Rhinoceros 8.5",
             "url": "https://pan.baidu.com/s/10NXMy7WzyIOdTJfftvjlZw?pwd=8888",
             "post": "https://blog.ruancang.net/post/rhino8.5.html"
@@ -2676,8 +2607,7 @@
       {
         "title": "Solid Edge",
         "icon": "img/icons/Solid Edge.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Solid Edge2024",
             "url": "https://pan.baidu.com/s/13Y08IwRuz5pDnIEQVpgp3A?pwd=8888",
             "post": "https://blog.ruancang.net/post/solid-edge2024.html"
@@ -2712,8 +2642,7 @@
       {
         "title": "SolidWorks",
         "icon": "img/icons/SolidWorks.svg",
-        "nav": [
-          {
+        "nav": [{
             "name": "SolidWorks2024",
             "url": "https://pan.baidu.com/s/1ilNgLboSpFanrMwDLeCRdg?pwd=8888",
             "post": "https://blog.ruancang.net/post/solidworks2024.html"
@@ -2783,8 +2712,7 @@
       {
         "title": "Unigraphics NX",
         "icon": "img/icons/Unigraphics NX.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "UG NX2312",
             "url": "https://pan.baidu.com/s/16puHekVaXBGueg8qVXW6AQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/ug-nx2312.html"
@@ -2851,12 +2779,11 @@
   {
     "tab": "电子电路",
     "icon": "",
-    "list": [
-      {
+    "id": 9,
+    "list": [{
         "title": "Altium Designer",
         "icon": "img/icons/Altium Designer.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Altium Designer 24",
             "url": "https://pan.baidu.com/s/1yn_7R4hFH7iLwtFG_QboKQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/altium-designer24.html"
@@ -2911,8 +2838,7 @@
       {
         "title": "EPLAN Electric P8",
         "icon": "img/icons/eplan.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "eplan2024",
             "url": "https://pan.baidu.com/s/1jdR5LLty3UozyJJP8Udxhg?pwd=8888",
             "post": "https://blog.ruancang.net/post/eplan2024.html"
@@ -2952,8 +2878,7 @@
       {
         "title": "Multisim",
         "icon": "img/icons/Multisim_200.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Multisim14.3",
             "url": "https://pan.baidu.com/s/1W7cdCNhZYEqcNYIYSX7FyA?pwd=6666",
             "post": "https://blog.ruancang.net/post/1268.html"
@@ -2978,8 +2903,7 @@
       {
         "title": "Proteus",
         "icon": "img/icons/Proteus.png",
-        "nav": [
-          {
+        "nav": [{
             "name": "Proteus 8.17",
             "url": "https://pan.baidu.com/s/1t6uA9Bfo6v-lhEpcogUqUQ?pwd=8888",
             "post": "https://blog.ruancang.net/post/proteus-8.17.html"
@@ -3016,12 +2940,11 @@
   {
     "tab": "数据分析",
     "icon": "",
-    "list": [
-      {
+    "id": 10,
+    "list": [{
         "title": "MatLab",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Matlab2024a",
             "url": "https://pan.baidu.com/s/1MH4L1O6Pp4u7ofX8kC0LEQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/matlab2024a.html"
@@ -3111,8 +3034,7 @@
       {
         "title": "Origin",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Origin 2022",
             "url": "https://pan.baidu.com/s/1CESdzMxqLL10Y00FrAymUA?pwd=6666",
             "post": "https://blog.ruancang.net/post/origin-2022.html"
@@ -3142,8 +3064,7 @@
       {
         "title": "SPSS",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "SPSS 27",
             "url": "https://pan.baidu.com/s/1dgJueTihx1yP1PKJJPtdoQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/spss-27.html"
@@ -3187,8 +3108,7 @@
       {
         "title": "Stata",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Stata18",
             "url": "https://pan.baidu.com/s/1zyLh9TzwmvrKiM1x4LDt2Q?pwd=6666",
             "post": "https://blog.ruancang.net/post/stata18.html"
@@ -3213,8 +3133,7 @@
       {
         "title": "Mathematica",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Mathematica 14",
             "url": "https://pan.baidu.com/s/1WRhtjR2owc0PvBoSKbPQ-A?pwd=6666",
             "post": "https://blog.ruancang.net/post/mathematica-14.html"
@@ -3249,8 +3168,7 @@
       {
         "title": "Tableau",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Tableau2023",
             "url": "https://pan.baidu.com/s/16_n9B0Afqan0Z63VWpqPIg?pwd=6666",
             "post": "https://blog.ruancang.net/post/tableau2023.html"
@@ -3280,8 +3198,7 @@
       {
         "title": "Amos",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Amos28",
             "url": "https://pan.baidu.com/s/1lcXYENBUe_1KVnSq6DMTKQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/amos28.html"
@@ -3301,8 +3218,7 @@
       {
         "title": "Mplus",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Mplus8.7",
             "url": "",
             "post": "https://blog.ruancang.net/post/mplus8.7.html"
@@ -3317,8 +3233,7 @@
       {
         "title": "Minitab",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Minitab 22",
             "url": "https://pan.baidu.com/s/125TKkcubmL9DhSRWKaVdkA?pwd=6666",
             "post": "https://blog.ruancang.net/post/minitab-22.html"
@@ -3353,8 +3268,7 @@
       {
         "title": "Lingo",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Lingo 18",
             "url": "https://pan.baidu.com/s/117_adutkY9jUtxOTkeQIyg?pwd=6666",
             "post": "https://blog.ruancang.net/post/lingo-18.html"
@@ -3379,8 +3293,7 @@
       {
         "title": "Maple",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Maple 2024",
             "url": "https://pan.baidu.com/s/1JdV7hht0DSAw8Lf4QIpoFw?pwd=6666",
             "post": "https://blog.ruancang.net/post/maple-2024.html"
@@ -3425,8 +3338,7 @@
       {
         "title": "Cytoscape",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "Cytoscape3.10",
             "url": "",
             "post": "https://blog.ruancang.net/post/cytoscape3.10.html"
@@ -3441,8 +3353,7 @@
       {
         "title": "Eviews",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "EViews 13.0",
             "url": "https://pan.baidu.com/s/1N8ouV3vFSReQ7DQ1SrybbQ?pwd=6666",
             "post": "https://blog.ruancang.net/post/eviews-13.0.html"
@@ -3483,8 +3394,7 @@
       {
         "title": "NCSS",
         "icon": "",
-        "nav": [
-          {
+        "nav": [{
             "name": "NCSS2023",
             "url": "",
             "post": "https://blog.ruancang.net/post/ncss2023.html"
