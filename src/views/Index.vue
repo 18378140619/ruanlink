@@ -9,17 +9,17 @@
     <div class="container-main">
       <div class="container-main-left">
         <p v-for="(item, index) in dataList" :key="index" @click="scrollToSection(index)">
-          {{ item.tab }}
+          {{ item.title }}
         </p>
       </div>
       <div class="container-main-right">
         <div class="list-container">
           <div class="list-item" :id="'list-item' + index" v-for="(item, index) in dataList" :key="index">
-            <h3>{{ item.tab }}</h3>
+            <h3>{{ item.title }}</h3>
             <div class="list-item-content">
-              <div class="list-item-content-item" v-for="(list, idx) in item.list" :key="list" :title="list.title"
-                @click="handleClick(list, idx)" :name="list.title" :disabled="list.nav.length === 0">
-                <el-image class="img" :src="list.icon">
+              <div class="list-item-content-item" v-for="(list, idx) in item.children" :key="list.title"
+                @click="handleClick(list, idx)" :name="list.title" :disabled="list.children.length === 0">
+                <el-image class="img" :src="map[list.title]">
                   <template #error>
                     <div class="image-slot">
                       <el-icon>{{ list.title.toUpperCase()[0] }}</el-icon>
@@ -34,10 +34,10 @@
       </div>
     </div>
     <!-- 连接弹窗 -->
-    <el-dialog v-model="dialogVisible" :title="dialogInfo.title" width="980" :before-close="handleClose">
+    <el-dialog v-model="dialogVisible" :title="dialogInfo.title" width="980">
       <div class="tips">所有文件解压密码均为:alin123</div>
-      <div class="dialog-content" v-for="item in dialogInfo.nav" :key="item.title">
-        <p class="dialog-content-title">{{ item.name }}</p>
+      <div class="dialog-content" v-for="item in dialogInfo.children" :key="item.title">
+        <p class="dialog-content-title">{{ item.title }}</p>
         <p>下载: <a :href="item.url" target="_blank"> {{ item.url }}</a></p>
       </div>
       <template #footer>
@@ -54,6 +54,77 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import sourceData from '@/assets/data.json'
+let map = {
+  "office": "img/icons/office.svg",
+  "wps": "img/icons/wps.svg",
+  "Acrobat": "img/icons/Acrobat DC.svg",
+  "After Effects": "img/icons/after-effects.svg",
+  "Animate": "img/icons/animate.svg",
+  "Audition": "img/icons/audition.svg",
+  "Bridge": "img/icons/bridge.svg",
+  "Character Animator": "img/icons/character-animator.svg",
+  "Dimension": "img/icons/dimension.svg",
+  "Dreamweaver": "img/icons/dreamweaver.svg",
+  "illustrator": "img/icons/illustrator.svg",
+  "InCopy": "img/icons/incopy.svg",
+  "InDesign": "img/icons/indesign.svg",
+  "Lightroom": "img/icons/lightroom-classic.svg",
+  "Midea Encoder": "img/icons/media-encoder.svg",
+  "Photoshop": "img/icons/photoshop.svg",
+  "Photoshop Elements": "img/icons/Photoshop-Elements.svg",
+  "Prelude": "img/icons/Prelude.svg",
+  "Premiere": "img/icons/premiere.svg",
+  "Premiere Elements": "img/icons/PremiereElements.svg",
+  "CAD": "img/icons/AutoCAD.svg",
+  "CAD Plant 3D": "img/icons/AutoCAD.svg",
+  "CAD MEP ": "img/icons/AutoCAD.svg",
+  "CAD MAP 3D": "img/icons/AutoCAD.svg",
+  "CAD精简版": "img/icons/AutoCAD.svg",
+  "CAD建筑版": "img/icons/AutoCAD.svg",
+  "CAD机械版": "img/icons/AutoCAD.svg",
+  "CAD电气版": "img/icons/AutoCAD.svg",
+  "CAD迷你系列": "img/icons/AutoCAD.svg",
+  "ACDSee": "img/icons/ACDSee.png",
+  "Capture One": "img/icons/Capture One.png",
+  "Corel Painter": "img/icons/corel-painter.png",
+  "SAI": "img/icons/SAI.png",
+  "SketchBook": "img/icons/SketchBook.png",
+  "3ds Max": "img/icons/3DSMax.png",
+  "Artlantis": "img/icons/Artlantis.png",
+  "blender": "img/icons/blender.png",
+  "CorelCAD": "img/icons/CorelCAD.png",
+  "Lumion": "img/icons/lumion.png",
+  "SketchUp Pro": "img/icons/SketchUpPro.png",
+  "V-Ray for 3dsMax": "img/icons/V-Ray.svg",
+  "V-Ray for Rhino": "img/icons/V-Ray.svg",
+  "V-Ray for SketchUp": "img/icons/V-Ray.svg",
+  "Maya": "img/icons/MAYA.png",
+  "CINEMA 4D": "img/icons/CINEMA 4D.png",
+  "Cubase": "img/icons/Cubase.png",
+  "达芬奇": "img/icons/DaVinciResolve.png",
+  "EDIUS Pro": "img/icons/edius-pro-250.png",
+  "Nuendo": "img/icons/nuendo.png",
+  "Civil 3D": "img/icons/Civil3D.png",
+  "Fuzor": "img/icons/Fuzor.png",
+  "Navisworks": "img/icons/Navisworks.png",
+  "Revit": "img/icons/Revit.png",
+  "Tekla Structures": "img/icons/tekla.png",
+  "Vectorworks": "img/icons/Vectorworks.png",
+  "CATIA Composer": "img/icons/Catia-P3-V5-6R2020.png",
+  "Catia": "img/icons/Catia-P3-V5-6R2020.png",
+  "Creo Parametric": "img/icons/Creo Parametric.svg",
+  "Inventor": "img/icons/Inventor.png",
+  "Mastercam": "img/icons/Mastercam.png",
+  "Powermill": "img/icons/Powermill.png",
+  "Rhinoceros": "img/icons/Rhinoceros.svg",
+  "Solid Edge": "img/icons/Solid Edge.png",
+  "SolidWorks": "img/icons/SolidWorks.svg",
+  "Unigraphics NX": "img/icons/Unigraphics NX.png",
+  "Altium Designer": "img/icons/Altium Designer.png",
+  "EPLAN Electric P8": "img/icons/eplan.png",
+  "Multisim": "img/icons/Multisim_200.png",
+  "Proteus": "img/icons/Proteus.png"
+}
 const dataList = ref(sourceData)
 const activeTab = ref(0)
 const eleOffsetTops = ref([])
@@ -145,7 +216,8 @@ const handleClick = (item, index) => {
 
   p {
     font-size: 16px;
-    span{
+
+    span {
       color: red;
     }
   }
@@ -223,6 +295,7 @@ const handleClick = (item, index) => {
   font-size: 30px;
   font-weight: 600;
 }
+
 ::v-deep(.el-dialog__body) {
   max-height: 60vh;
   overflow-x: auto;
