@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="container-head">
-      <div>小林软仓</div>
+      <div>www.alin123.top</div>
       <p>所有文件解压密码均为：<span>alin123</span></p>
       <p>本站为公益站点请Ctrl + D 保存网站www.alin123.top到收藏夹</p>
     </div>
