@@ -56,7 +56,7 @@
 import { onMounted, ref } from 'vue'
 import sourceData from '@/assets/data.json'
 let map = {
-  "Office": "img/icons/Office.svg",
+  "Office": "img/icons/office.svg",
   "wps": "img/icons/wps.svg",
   "Acrobat": "img/icons/Acrobat DC.svg",
   "After Effects": "img/icons/after-effects.svg",
