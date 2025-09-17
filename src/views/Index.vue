@@ -123,7 +123,58 @@ let map = {
   "Altium Designer": "img/icons/Altium Designer.png",
   "EPLAN Electric P8": "img/icons/eplan.png",
   "Multisim": "img/icons/Multisim_200.png",
-  "Proteus": "img/icons/Proteus.png"
+  "Proteus": "img/icons/Proteus.png",
+  "After Effects": "img/icons/After Effects.jpg",
+  "Amos": "img/icons/Amos.png",
+  "Blender": "img/icons/Blender.png",
+  "CAD MAP3D": "img/icons/CAD MAP3D.png",
+  "CAD MEP": "img/icons/CAD MEP.png",
+  "CAD Plant3D": "img/icons/CAD Plant3D.png",
+  "CAD建筑版": "img/icons/CAD建筑版.png",
+  "CAD机械版": "img/icons/CAD机械版.png",
+  "CAD电气版": "img/icons/CAD电气版.png",
+  "CAD迷你看图": "img/icons/CAD迷你看图.png",
+  "CAXA 3D实体设计": "img/icons/CAXA 3D实体设计.jpg",
+  "CAXA CAPP工艺图表": "img/icons/CAXA CAPP工艺图表.png",
+  "CAXA电子图板": "img/icons/CAXA电子图板.png",
+  "Civil 3D": "img/icons/Civil 3D.png",
+  "CorelCAD": "img/icons/CorelCAD.png",
+  "Cytoscape": "img/icons/Cytoscape.png",
+  "Dreamweaver": "img/icons/Dreamweaver.jpg",
+  "EPLAN Electric": "img/icons/EPLAN Electric.jpg",
+  "eplan": "img/icons/eplan.png",
+  "Fuzo": "img/icons/Fuzo.jpg",
+  "IHS EViews": "img/icons/IHS EViews.jpg",
+  "Illustrator": "img/icons/Illustrator.webp",
+  "Lightroom": "img/icons/Lightroom.jpg",
+  "Lingo": "img/icons/Lingo.png",
+  "Maple": "img/icons/Maple.png",
+  "Mastercam_icon": "img/icons/Mastercam_icon.png",
+  "Mathematica": "img/icons/Mathematica.jpg",
+  "MATLAB": "img/icons/MATLAB.jpg",
+  "Media Encoder": "img/icons/Media Encoder.webp",
+  "Microsoft": "img/icons/Microsoft.webp",
+  "Minitab": "img/icons/Minitab.webp",
+  "Mplus": "img/icons/Mplus.png",
+  "NCSS": "img/icons/NCSS.png",
+  "NX": "img/icons/NX.png",
+  "Office": "img/icons/Office.jpg",
+  "Origin": "img/icons/Origin.png",
+  "Photoshop": "img/icons/Photoshop.jpg",
+  "PowerMill": "img/icons/PowerMill.png",
+  "Prelude": "img/icons/Prelude.jpg",
+  "Premiere": "img/icons/Premiere.jpg",
+  "Proe": "img/icons/Proe.jpg",
+  "Rhino": "img/icons/Rhino.jpg",
+  "SketchUp": "img/icons/SketchUp.png",
+  "SPSS": "img/icons/SPSS.jpg",
+  "stata": "img/icons/stata.png",
+  "Tableau": "img/icons/Tableau.png",
+  "UG NX": "img/icons/UG NX.png",
+  "V-Ray for 3ds Max": "img/icons/V-Ray for 3ds Max.png",
+  "V-ray for su": "img/icons/V-ray for su.png",
+  "VectorWorks": "img/icons/VectorWorks.png",
+  "天正": "img/icons/天正.png"
 }
 const dataList = ref(sourceData)
 const activeTab = ref(0)
@@ -266,6 +317,12 @@ const handleClick = (item, index) => {
         margin-right: 8px;
         width: 35px;
         height: 35px;
+      }
+
+      .image-slot {
+        height: 100%;
+        display: flex;
+        align-items: center;
       }
     }
   }
